@@ -1,0 +1,179 @@
+{
+  "sites": [
+    {
+      "name": "TopCashback",
+      "enabled": true,
+      "baseUrl": "https://www.topcashback.co.uk/",
+      "profileDir": "./playwright_profiles/TopCashback",
+      "categories": [
+        {
+          "name": "Hotels & Travel",
+          "enabled": true,
+          "merchants": [
+            { "name": "Hotels.com", "url": "https://www.topcashback.co.uk/hotelscom/", "enabled": true },
+            { "name": "Trip.com", "url": "https://www.topcashback.co.uk/trip/", "enabled": true },
+            { "name": "Expedia", "url": "https://www.topcashback.co.uk/expedia/", "enabled": true },
+            { "name": "Agoda", "url": "https://www.topcashback.co.uk/agoda/", "enabled": true },
+            { "name": "Marriott Bonvoy", "url": "https://www.topcashback.co.uk/marriott-bonvoy/", "enabled": true },
+            { "name": "IHG Hotels & Resorts", "url": "https://www.topcashback.co.uk/intercontinental-hotel-group/", "enabled": true },
+            { "name": "ALL - Accor Live Limitless", "url": "https://www.topcashback.co.uk/all-accor-live-limitless/", "enabled": true },
+            { "name": "easyHotel", "url": "https://www.topcashback.co.uk/easyhotel/", "enabled": true },
+            { "name": "Premier Inn", "url": "https://www.topcashback.co.uk/premier-inn/", "enabled": true },
+            { "name": "Travelodge", "url": "https://www.topcashback.co.uk/travelodge/", "enabled": true },
+            { "name": "Last Minute", "url": "https://www.topcashback.co.uk/lastminute/", "enabled": true },
+            { "name": "Radisson", "url": "https://www.topcashback.co.uk/radisson-hotels/", "enabled": true },
+            { "name": "Britannia Hotels", "url": "https://www.topcashback.co.uk/britannia-hotels/", "enabled": true },
+            { "name": "CitizenM", "url": "https://www.topcashback.co.uk/citizen-m/", "enabled": true },
+            { "name": "YOTEL", "url": "https://www.topcashback.co.uk/yotel/", "enabled": true },
+            { "name": "Hostelworld", "url": "https://www.topcashback.co.uk/hostelworld/", "enabled": true }
+          ]
+        },
+        {
+          "name": "Fashion",
+          "enabled": false,
+          "merchants": [
+            { "name": "ASOS", "url": "https://www.topcashback.co.uk/asos/", "enabled": false }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rakuten",
+      "enabled": true,
+      "baseUrl": "https://www.rakuten.co.uk/",
+      "profileDir": "./playwright_profiles/Rakuten",
+      "categories": [
+        {
+          "name": "Hotels & Travel",
+          "enabled": true,
+          "merchants": [
+            {
+              "name": "Hotels.com",
+              "url": "https://www.rakuten.co.uk/shop/hotelscom",
+              "enabled": true
+            },
+            {
+              "name": "Trip.com",
+              "url": "https://www.rakuten.co.uk/shop/tripcom",
+              "enabled": true
+            },
+            {
+              "name": "Expedia",
+              "url": "https://www.rakuten.co.uk/shop/expedia-uk",
+              "enabled": true
+            },
+            {
+              "name": "Agoda",
+              "url": "https://www.rakuten.co.uk/shop/agoda",
+              "enabled": true
+            },
+            {
+              "name": "IHG Hotels & Resorts",
+              "url": "https://www.rakuten.co.uk/shop/ihg",
+              "enabled": true
+            },
+            {
+              "name": "Travelodge",
+              "url": "https://www.rakuten.co.uk/travelodge/",
+              "enabled": true
+            },
+            {
+              "name": "Last Minute",
+              "url": "https://www.rakuten.co.uk/lastminute-com/",
+              "enabled": true
+            },
+            {
+              "name": "Radisson",
+              "url": "https://www.rakuten.co.uk/shop/radisson-hotels",
+              "enabled": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Quidco",
+      "enabled": true,
+      "baseUrl": "https://www.quidco.com/",
+      "profileDir": "./playwright_profiles/Quidco",
+      "categories": [
+        {
+          "name": "Hotels & Travel",
+          "enabled": true,
+          "merchants": [
+            {
+              "name": "Hotels.com",
+              "url": "https://www.quidco.com/merchant/hotels-com/",
+              "enabled": true
+            },
+            {
+              "name": "Trip.com",
+              "url": "https://www.quidco.com/merchant/trip-com/",
+              "enabled": true
+            },
+            {
+              "name": "Expedia",
+              "url": "https://www.quidco.com/merchant/expedia/",
+              "enabled": true
+            },
+            {
+              "name": "Agoda",
+              "url": "https://www.quidco.com/merchant/agoda/",
+              "enabled": true
+            },
+            {
+              "name": "Marriott Bonvoy",
+              "url": "https://www.quidco.com/merchant/marriott-bonvoy/",
+              "enabled": true
+            },
+            {
+              "name": "IHG Hotels & Resorts",
+              "url": "https://www.quidco.com/merchant/ihg-hotels-resorts/",
+              "enabled": true
+            },
+            {
+              "name": "ALL - Accor Live Limitless",
+              "url": "https://www.quidco.com/merchant/accorhotels/",
+              "enabled": true
+            },
+            {
+              "name": "easyHotel",
+              "url": "https://www.quidco.com/merchant/easyhotel/",
+              "enabled": true
+            },
+            {
+              "name": "Travelodge",
+              "url": "https://www.quidco.com/merchant/travelodge-uk/",
+              "enabled": true
+            },
+            {
+              "name": "Radisson",
+              "url": "https://www.quidco.com/merchant/radisson-hotels/",
+              "enabled": true
+            },
+            {
+              "name": "Britannia Hotels",
+              "url": "https://www.quidco.com/merchant/britannia-hotels/",
+              "enabled": true
+            },
+            {
+              "name": "CitizenM",
+              "url": "https://www.quidco.com/merchant/citizenm/",
+              "enabled": true
+            },
+            {
+              "name": "YOTEL",
+              "url": "https://www.quidco.com/merchant/yotel/",
+              "enabled": true
+            },
+            {
+              "name": "Hostelworld",
+              "url": "https://www.quidco.com/merchant/hostelworld/",
+              "enabled": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
